@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseout Event Example</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 200px;
+            font-size: 20px;
+            transition: background-color 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box" id="hoverBox">Hover over me!</div>
+
+    <script>
+        // Select the element
+        const hoverBox = document.getElementById('hoverBox');
+
+        // Add the mouseout event listener
+        hoverBox.addEventListener('mouseout', () => {
+            // Change background color and text
+            hoverBox.style.backgroundColor = 'lightblue';
+            hoverBox.textContent = 'Hover over me!';
+        });
+
+        // Add mouseover to demonstrate a change when hovering
+        hoverBox.addEventListener('mouseover', () => {
+            hoverBox.style.backgroundColor = 'orange';
+            hoverBox.textContent = 'Mouse is over me!';
+        });
+    </script>
+
+</body>
+
+</html>

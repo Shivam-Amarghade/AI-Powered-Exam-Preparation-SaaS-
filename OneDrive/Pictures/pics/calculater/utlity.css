@@ -1,0 +1,23 @@
+.text-center {
+    text-align: center;
+    color: gray;
+}
+
+.bag-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-col {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

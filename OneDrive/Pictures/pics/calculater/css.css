@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.button {
+    padding: 20px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+.bb {
+    padding: 16px;
+}
+
+.xx {
+    padding: 16px;
+    margin-left: 4px;
+}
+
+.uniqueBTN {
+    width: 50px;
+}
+
+.row {
+    margin-top: 5px;
+}
+
+.input {
+    padding: 6px, 70px;
+    width: 210px;
+    height: 50px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1731286507379-94216c27cf9d?q=80&w=1824&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
